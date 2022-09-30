@@ -24,10 +24,6 @@ def readJSONfile(path):
   except Exception as e:
     return None  
 
-@app.route('/<path>',methods=['GET'])
-def getapp(path):
-  return path
-
 if __name__ == "__main__":
     app.run(host="0.0.0.0",threaded=True)
 
