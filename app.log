@@ -115,3 +115,19 @@ TypeError: The view function for 'getapp' did not return a valid response. The f
 2022-09-30 17:37:25,786: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=apkparser.json HTTP/1.1" 200 37
 2022-09-30 17:37:25,787: ERROR, 'data'
 2022-09-30 17:37:25,788: INFO, 127.0.0.1 - - [30/Sep/2022 17:37:25] "GET /apkparser.json HTTP/1.1" 200 -
+2022-09-30 18:55:01,512: WARNING,  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-30 18:55:01,514: INFO,  * Running on http://192.168.100.4:5000/ (Press CTRL+C to quit)
+2022-09-30 18:55:11,510: INFO, 127.0.0.1 - - [30/Sep/2022 18:55:11] "[33mGET /api/property/lagecy_v1?bracket_key=whatsdog.json HTTP/1.1[0m" 404 -
+2022-09-30 18:55:16,478: INFO, 127.0.0.1 - - [30/Sep/2022 18:55:16] "GET / HTTP/1.1" 200 -
+2022-09-30 18:55:17,714: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 18:55:18,000: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=favicon.ico HTTP/1.1" 200 37
+2022-09-30 18:55:18,001: ERROR, 'data'
+2022-09-30 18:55:18,002: INFO, 127.0.0.1 - - [30/Sep/2022 18:55:18] "GET /favicon.ico HTTP/1.1" 200 -
+2022-09-30 18:55:35,192: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 18:55:35,412: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=whatsdog.json HTTP/1.1" 200 37
+2022-09-30 18:55:35,412: ERROR, 'data'
+2022-09-30 18:55:35,421: INFO, 127.0.0.1 - - [30/Sep/2022 18:55:35] "GET /whatsdog.json HTTP/1.1" 200 -
+2022-09-30 18:55:40,019: WARNING,  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-30 18:55:40,019: INFO,  * Running on http://192.168.100.4:5000/ (Press CTRL+C to quit)
