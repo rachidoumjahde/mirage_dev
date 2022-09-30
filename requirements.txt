@@ -1,5 +1,2 @@
 gunicorn
 Flask
-requests
-logging
-json
