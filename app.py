@@ -1,10 +1,13 @@
 from flask import Flask
+#import requests
+import logging
+#import json
 
 
 
 
 app= Flask(__name__)
-#logging.basicConfig(filename='app.log', format='%(asctime)s: %(levelname)s, %(message)s', level=logging.DEBUG)
+logging.basicConfig(filename='app.log', format='%(asctime)s: %(levelname)s, %(message)s', level=logging.DEBUG)
 BASE_URL ="https://mobipolar.online/api/property/lagecy_v1?bracket_key={}"
 
 @app.route('/')
