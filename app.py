@@ -28,7 +28,7 @@ def readJSONfile(path):
 def getapp(path):
   try :
    data = requests.get(BASE_URL.format(path))
-   return data.json()["data"]
+   return data.json()
   except Exception as e  :
     logging.error(e)
     try :
