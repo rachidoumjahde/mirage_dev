@@ -28,7 +28,10 @@ def readJSONfile(path):
 def getapp(path):
   try :
    data = requests.get(BASE_URL.format(path))
-   return data.json()
+   if(data["code"]==404):
+    Exception("braket not found")
+   else :
+    return data.json()
   except Exception as e  :
     logging.error(e)
     try :

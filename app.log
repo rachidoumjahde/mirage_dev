@@ -131,3 +131,47 @@ TypeError: The view function for 'getapp' did not return a valid response. The f
 2022-09-30 18:55:40,019: WARNING,  * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 2022-09-30 18:55:40,019: INFO,  * Running on http://192.168.100.4:5000/ (Press CTRL+C to quit)
+2022-09-30 19:33:34,185: WARNING,  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-30 19:33:34,187: INFO,  * Running on http://192.168.100.4:5000/ (Press CTRL+C to quit)
+2022-09-30 19:33:41,836: INFO, 127.0.0.1 - - [30/Sep/2022 19:33:41] "[33mGET /api/property/lagecy_v1?bracket_key=whatsdog.json HTTP/1.1[0m" 404 -
+2022-09-30 19:33:49,169: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 19:33:49,439: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=whatsdog.json HTTP/1.1" 200 None
+2022-09-30 19:33:49,443: ERROR, 'Response' object is not subscriptable
+2022-09-30 19:33:49,444: INFO, 127.0.0.1 - - [30/Sep/2022 19:33:49] "GET /whatsdog.json HTTP/1.1" 200 -
+2022-09-30 19:33:53,087: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 19:33:53,323: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=whatsddog.json HTTP/1.1" 200 None
+2022-09-30 19:33:53,326: ERROR, 'Response' object is not subscriptable
+2022-09-30 19:33:53,326: INFO, 127.0.0.1 - - [30/Sep/2022 19:33:53] "GET /whatsddog.json HTTP/1.1" 200 -
+2022-09-30 19:34:14,694: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 19:34:14,904: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=onlinetrackerbackend.json HTTP/1.1" 200 None
+2022-09-30 19:34:14,905: ERROR, 'Response' object is not subscriptable
+2022-09-30 19:34:14,908: INFO, 127.0.0.1 - - [30/Sep/2022 19:34:14] "GET /onlinetrackerbackend.json HTTP/1.1" 200 -
+2022-09-30 19:34:57,259: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 19:34:57,497: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=onlinetracker.json HTTP/1.1" 200 None
+2022-09-30 19:34:57,498: ERROR, 'Response' object is not subscriptable
+2022-09-30 19:34:57,499: INFO, 127.0.0.1 - - [30/Sep/2022 19:34:57] "GET /onlinetracker.json HTTP/1.1" 200 -
+2022-09-30 19:35:12,333: WARNING,  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-30 19:35:12,333: INFO,  * Running on http://192.168.100.4:5000/ (Press CTRL+C to quit)
+2022-09-30 19:35:14,097: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 19:35:14,351: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=onlinetracker.json HTTP/1.1" 200 None
+2022-09-30 19:35:14,353: ERROR, 'Response' object is not subscriptable
+2022-09-30 19:35:14,353: INFO, 127.0.0.1 - - [30/Sep/2022 19:35:14] "GET /onlinetracker.json HTTP/1.1" 200 -
+2022-09-30 19:35:15,713: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 19:35:15,928: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=onlinetracker.json HTTP/1.1" 200 None
+2022-09-30 19:35:15,929: ERROR, 'Response' object is not subscriptable
+2022-09-30 19:35:15,930: INFO, 127.0.0.1 - - [30/Sep/2022 19:35:15] "GET /onlinetracker.json HTTP/1.1" 200 -
+2022-09-30 19:35:31,082: WARNING,  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-30 19:35:31,083: INFO,  * Running on http://192.168.100.4:5000/ (Press CTRL+C to quit)
+2022-09-30 19:35:32,589: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 19:35:32,934: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=onlinetracker.json HTTP/1.1" 200 None
+2022-09-30 19:35:32,936: ERROR, 'Response' object is not subscriptable
+2022-09-30 19:35:32,937: INFO, 127.0.0.1 - - [30/Sep/2022 19:35:32] "GET /onlinetracker.json HTTP/1.1" 200 -
+2022-09-30 19:35:41,098: WARNING,  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-30 19:35:41,100: INFO,  * Running on http://192.168.100.4:5000/ (Press CTRL+C to quit)
+2022-09-30 19:35:45,142: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 19:35:45,371: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=onlinetracker.json HTTP/1.1" 200 None
+2022-09-30 19:36:03,298: ERROR, 'Response' object is not subscriptable
