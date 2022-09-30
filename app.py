@@ -25,7 +25,6 @@ def index():
 
 @app.route('/<path>',methods=['GET'])
 def getapp(path):
-   data = requests.get(BASE_URL.format(path))
    return "test"
 
 if __name__ == "__main__":
