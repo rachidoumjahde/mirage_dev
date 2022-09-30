@@ -1,0 +1,41 @@
+{
+   "networks":{
+      
+      "unity":{
+         "id":"4473173",
+         "banner":"Banner_Android",
+         "interstitial":"Interstitial_Android",
+         "show_limit":3,
+         "network":"unity",
+         "network_index":1
+
+      },
+      "ironsource":{
+         "id":"155282549",
+         "banner":"DefaultBanner",
+         "interstitial":"DefaultInterstitial",
+         "show_limit":2,
+         "network":"ironsource",
+         "network_index":2
+
+      },
+      "admob":{
+         "id":"ca-app-pub-394d0256099942544~3347511713",
+         "banner":"ca-app-pub-3940256099942544/6300978111",
+         "interstitial":"ca-app-pub-3940256099942544/1033173712",
+         "native_banner":"ca-app-pub-3940256099942544/2247696110",
+         "show_limit":8,
+         "banner_click":8,
+         "native_type":1, 
+         "network":"admob",
+         "network_index":3
+
+      }
+   },
+   "serving":true,
+   "splash_ad":true,
+   "splash_index":2,
+   "ad_index":2,
+   "debug":true,
+   "safe_bot":false
+}
