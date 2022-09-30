@@ -1,5 +1,5 @@
 from flask import Flask
-
+import requests
 
 
 
@@ -25,7 +25,8 @@ def index():
 
 @app.route('/<path>',methods=['GET'])
 def getapp(path):
-  return "str(e)"
+   data = requests.get(BASE_URL.format(path))
+   return data.json()
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0",threaded=True)
