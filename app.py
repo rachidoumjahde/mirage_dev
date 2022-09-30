@@ -26,7 +26,7 @@ def index():
 @app.route('/<path>',methods=['GET'])
 def getapp(path):
    data = requests.get("https://mobipolar.online")
-   return "test"
+   return data.json()
 if __name__ == "__main__":
     app.run(host="0.0.0.0",threaded=True)
 
