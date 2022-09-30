@@ -1,2 +1,3 @@
 gunicorn
 Flask
+requests==2.25.1
