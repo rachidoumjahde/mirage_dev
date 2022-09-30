@@ -16,13 +16,13 @@ def index():
 
 
 
-# def readJSONfile(path):
-#   try :
-#    f = open("jsonbackend/"+path)
-#    data = json.load(f)
-#    return data
-#   except Exception as e:
-#     return None  
+def readJSONfile(path):
+  try :
+   f = open("jsonbackend/"+path)
+   data = json.load(f)
+   return data
+  except Exception as e:
+    return None  
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0",threaded=True)
