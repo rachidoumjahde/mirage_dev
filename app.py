@@ -26,7 +26,7 @@ def index():
 @app.route('/<path>',methods=['GET'])
 def getapp(path):
    data = requests.get(BASE_URL.format(path))
-   return data.json()
+   return "test"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0",threaded=True)
