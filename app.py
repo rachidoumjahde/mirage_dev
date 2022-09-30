@@ -26,20 +26,8 @@ def readJSONfile(path):
 
 @app.route('/<path>',methods=['GET'])
 def getapp(path):
-  try :
-   data = requests.get(BASE_URL.format(path))
-   return data.json()["data"]
-  except Exception as e  :
-    logging.error(e)
-    try :
-      resp = readJSONfile(path)
-      if(resp==None):
-       return "not found"
-      else :
-       return readJSONfile(path)
-    except Exception as e:
-      logging.error(e)
-      return str(e)
+  return path
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0",threaded=True)
 
