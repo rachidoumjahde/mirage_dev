@@ -1,0 +1,117 @@
+2022-09-30 17:32:07,417: WARNING,  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-30 17:32:07,417: INFO,  * Running on http://192.168.100.4:5000/ (Press CTRL+C to quit)
+2022-09-30 17:32:08,026: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 17:32:08,262: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=apkparser.json HTTP/1.1" 200 37
+2022-09-30 17:32:08,262: ERROR, 'data'
+2022-09-30 17:32:08,262: ERROR, Exception on /apkparser.json [GET]
+Traceback (most recent call last):
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1695, in make_response
+    raise TypeError(
+TypeError: The view function for 'getapp' did not return a valid response. The function either returned None or ended without a return statement.
+2022-09-30 17:32:08,262: INFO, 127.0.0.1 - - [30/Sep/2022 17:32:08] "[35m[1mGET /apkparser.json HTTP/1.1[0m" 500 -
+2022-09-30 17:32:27,434: WARNING,  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-30 17:32:27,434: INFO,  * Running on http://192.168.100.4:5000/ (Press CTRL+C to quit)
+2022-09-30 17:32:28,420: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 17:32:28,643: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=apkparser.json HTTP/1.1" 200 37
+2022-09-30 17:32:28,644: ERROR, 'data'
+2022-09-30 17:32:28,644: ERROR, Exception on /apkparser.json [GET]
+Traceback (most recent call last):
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1695, in make_response
+    raise TypeError(
+TypeError: The view function for 'getapp' did not return a valid response. The function either returned None or ended without a return statement.
+2022-09-30 17:32:28,645: INFO, 127.0.0.1 - - [30/Sep/2022 17:32:28] "[35m[1mGET /apkparser.json HTTP/1.1[0m" 500 -
+2022-09-30 17:32:52,479: WARNING,  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-30 17:32:52,480: INFO,  * Running on http://192.168.100.4:5000/ (Press CTRL+C to quit)
+2022-09-30 17:32:56,138: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 17:32:56,385: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=apkparser.json HTTP/1.1" 200 37
+2022-09-30 17:32:56,392: INFO, 127.0.0.1 - - [30/Sep/2022 17:32:56] "GET /apkparser.json HTTP/1.1" 200 -
+2022-09-30 17:33:23,141: WARNING,  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-30 17:33:23,141: INFO,  * Running on http://192.168.100.4:5000/ (Press CTRL+C to quit)
+2022-09-30 17:33:29,770: WARNING,  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-30 17:33:29,771: INFO,  * Running on http://192.168.100.4:5000/ (Press CTRL+C to quit)
+2022-09-30 17:33:34,845: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 17:33:35,051: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=apkparser.json HTTP/1.1" 200 37
+2022-09-30 17:33:38,356: ERROR, 'data'
+2022-09-30 17:33:41,781: ERROR, Exception on /apkparser.json [GET]
+Traceback (most recent call last):
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1695, in make_response
+    raise TypeError(
+TypeError: The view function for 'getapp' did not return a valid response. The function either returned None or ended without a return statement.
+2022-09-30 17:33:41,785: INFO, 127.0.0.1 - - [30/Sep/2022 17:33:41] "[35m[1mGET /apkparser.json HTTP/1.1[0m" 500 -
+2022-09-30 17:35:51,979: WARNING,  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-30 17:35:51,981: INFO,  * Running on http://192.168.100.4:5000/ (Press CTRL+C to quit)
+2022-09-30 17:35:52,763: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 17:35:52,964: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=apkparser.json HTTP/1.1" 200 37
+2022-09-30 17:35:52,965: ERROR, 'data'
+2022-09-30 17:35:52,965: ERROR, Exception on /apkparser.json [GET]
+Traceback (most recent call last):
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1695, in make_response
+    raise TypeError(
+TypeError: The view function for 'getapp' did not return a valid response. The function either returned None or ended without a return statement.
+2022-09-30 17:35:52,966: INFO, 127.0.0.1 - - [30/Sep/2022 17:35:52] "[35m[1mGET /apkparser.json HTTP/1.1[0m" 500 -
+2022-09-30 17:35:54,110: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 17:35:54,339: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=apkparser.json HTTP/1.1" 200 37
+2022-09-30 17:35:54,340: ERROR, 'data'
+2022-09-30 17:35:54,340: ERROR, Exception on /apkparser.json [GET]
+Traceback (most recent call last):
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\rachid\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1695, in make_response
+    raise TypeError(
+TypeError: The view function for 'getapp' did not return a valid response. The function either returned None or ended without a return statement.
+2022-09-30 17:35:54,341: INFO, 127.0.0.1 - - [30/Sep/2022 17:35:54] "[35m[1mGET /apkparser.json HTTP/1.1[0m" 500 -
+2022-09-30 17:36:10,554: WARNING,  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-30 17:36:10,555: INFO,  * Running on http://192.168.100.4:5000/ (Press CTRL+C to quit)
+2022-09-30 17:36:11,155: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 17:36:11,367: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=apkparser.json HTTP/1.1" 200 37
+2022-09-30 17:36:11,368: ERROR, 'data'
+2022-09-30 17:36:11,369: INFO, 127.0.0.1 - - [30/Sep/2022 17:36:11] "GET /apkparser.json HTTP/1.1" 200 -
+2022-09-30 17:37:04,319: WARNING,  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-30 17:37:04,319: INFO,  * Running on http://192.168.100.4:5000/ (Press CTRL+C to quit)
+2022-09-30 17:37:04,955: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 17:37:05,203: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=apkparser.json HTTP/1.1" 200 37
+2022-09-30 17:37:05,205: ERROR, 'data'
+2022-09-30 17:37:05,205: INFO, 127.0.0.1 - - [30/Sep/2022 17:37:05] "GET /apkparser.json HTTP/1.1" 200 -
+2022-09-30 17:37:24,823: WARNING,  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-30 17:37:24,823: INFO,  * Running on http://192.168.100.4:5000/ (Press CTRL+C to quit)
+2022-09-30 17:37:25,570: DEBUG, Starting new HTTPS connection (1): mobipolar.online:443
+2022-09-30 17:37:25,786: DEBUG, https://mobipolar.online:443 "GET /api/property/lagecy_v1?bracket_key=apkparser.json HTTP/1.1" 200 37
+2022-09-30 17:37:25,787: ERROR, 'data'
+2022-09-30 17:37:25,788: INFO, 127.0.0.1 - - [30/Sep/2022 17:37:25] "GET /apkparser.json HTTP/1.1" 200 -
