@@ -28,11 +28,12 @@ def readJSONfile(path):
 def getapp(path):
   try :
    data = requests.get(BASE_URL.format(path))
-   if(data["code"]==404):
+   if(data.json()['code']==404):
     Exception("braket not found")
    else :
     return data.json()
   except Exception as e  :
+    print(str(e))
     logging.error(e)
     try :
       resp = readJSONfile(path)
@@ -43,8 +44,7 @@ def getapp(path):
     except Exception as e:
       logging.error(e)
       return jsonify({"message":str(e)}) 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0",threaded=True)
+
 
 
 if __name__ == "__main__":
