@@ -18,34 +18,31 @@ def index():
 
 def readJSONfile(path):
   try :
-   f = open("jsonbackend/"+path)
-   data = json.load(f)
-   return data
+   with open('miragetanger/jsonbackend/'+path, 'r') as file:
+        content = json.load(file)
+   return content
   except Exception as e:
+    print(e)
     return None  
-
+  
 @app.route('/<path>',methods=['GET'])
 def getapp(path):
-  try :
    data = requests.get(BASE_URL.format(path))
-   if(data.json()['code']==404):
-    Exception("braket not found")
-   else :
-    return data.json()
-  except Exception as e  :
-    print(str(e))
-    logging.error(e)
-    try :
-      resp = readJSONfile(path)
-      if(resp==None):
-       return jsonify({"message":"not found"}) 
-      else :
-       return readJSONfile(path)
-    except Exception as e:
-      logging.error(e)
-      return jsonify({"message":str(e)}) 
-
-
+   try :
+    if(data.json()['code']==404):
+     try :
+       resp = readJSONfile(path)
+       if(resp==None):
+        return jsonify({"message":"not found"}) 
+       else :
+        return readJSONfile(path)
+     except Exception as e:
+       logging.error(e)
+       return jsonify({"message":str(e)}) 
+    else :
+     return data.json()
+   except Exception as e:
+     print(e) 
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0",threaded=True)
