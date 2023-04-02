@@ -12,7 +12,7 @@ BASE_URL ="https://mobipolar.online/api/property/lagecy_v1?bracket_key={}"
 
 @app.route('/')
 def index():
-  return "<h1>P</h1>"
+  return "<h1>R</h1>"
 
 
 
